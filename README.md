@@ -63,14 +63,14 @@ Si ya tienes tu entorno de desarrollo local configurado (como VS Code con `g++`)
     ```
 2.  **Navegar a la Guía:** Entra a la carpeta del repositorio y luego a la guía que deseas.
     ```bash
-    cd IPI/Guia_X
+    cd IPI/GuiaX
     ```
 3.  **Compilar y Ejecutar:** Utiliza `g++` para compilar el código y luego ejecuta el programa resultante.
 
-    *Ejemplo para compilar y correr `ejercicio_1.cpp`:*
+    *Ejemplo para compilar y correr `EJ1.cpp`:*
     ```bash
     # Compilar el código fuente a un programa ejecutable llamado 'programa'
-    g++ ejercicio_1.cpp -o programa
+    g++ EJ1.cpp -o programa
 
     # Ejecutar el programa (el comando varía ligeramente según el sistema operativo)
     ./programa 
