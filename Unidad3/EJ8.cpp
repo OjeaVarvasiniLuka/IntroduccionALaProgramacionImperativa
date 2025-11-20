@@ -12,7 +12,9 @@ int invertir_cadena(string cadena){
     string cadena_invertida = "";
     // Recorro la cadena desde el final hasta el principio
     for(int i = cadena.length() - 1; i >= 0; i--){
+        //en cadenas se puede usar el operador += para concatenar
         cadena_invertida += cadena[i];
+        //Aunque tambien se puede hacer cadena_invertida = cadena_invertida + cadena[i];
     }
     cout << "La cadena invertida es: " << cadena_invertida << endl;
     return 0;
