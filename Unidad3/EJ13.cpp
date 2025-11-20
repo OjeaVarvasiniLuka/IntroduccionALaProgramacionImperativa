@@ -6,6 +6,7 @@ using namespace std;
 cuál es y por qué se produce. Proponer posibles soluciones.
 */
 string x = "azul";
+string y;
 
 void primera(){
     cout << "Ne gusta el color" << x << endl;
@@ -23,7 +24,7 @@ int main() {
 }
 
 /*
-Efectivamente, el codigo genera un error, ya que la variable "y" fue declarada 
+Efectivamente, el codigo genera un error, ya que la variable "y" fue declarada
 en la funcion "segunda" y no es accesible desde la funcion "main".
 
 Algunas soluciones pueden ser:
@@ -32,4 +33,6 @@ Algunas soluciones pueden ser:
 tipo de retorno y guardar el dato devuelto.
 3. Mover esta linea "cout << "Mis colores favoritos son " << x << " y " << y << endl;"
 dentro de segunda.
+
+Nosotros optamos por la primera opcion.
 */
